@@ -1,0 +1,71 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(178, 240, 219, 0.693);
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(165, 235, 211, 0.771);
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 50px 50px;
+    border-radius: 30px;
+} 
+
+.btn{
+    height: 50px;
+    width: 100px;
+    border-radius: 30px;
+    border-color: none;
+    margin-left: 100px;
+    background-color: rgb(151, 244, 213);
+    border: none;
+    cursor: pointer;
+}
+
+p{
+    font-size: large;
+}
+
+input{
+    height: 30px;
+    width: 300px;
+    margin-top: 10px;
+    border-radius: 30px;
+    border: none;
+}
+
+input:focus{
+    background-color: rgb(151, 244, 213);
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+}
+/*SERVE PARA RETIRAR AS SETAS DO INPUT NUMBER*/
+
+.resultado{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    margin: 20px 100px;
+    padding-top: 15px;
+    border-radius: 30px;
+    background-color: rgba(165, 235, 211, 0.771);
+    font-size: larger;
+}
